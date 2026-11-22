@@ -1,0 +1,2502 @@
+{
+  "source": "Google Noto Animated Emoji (Apache 2.0)",
+  "assets": [
+    {
+      "id": "ghost",
+      "codepoint": "1f47b",
+      "category": "Smileys and emotions",
+      "filename": "ghost.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f47b/512.webp",
+      "tags": [
+        "ghost"
+      ]
+    },
+    {
+      "id": "robot",
+      "codepoint": "1f916",
+      "category": "Smileys and emotions",
+      "filename": "robot.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f916/512.webp",
+      "tags": [
+        "robot"
+      ]
+    },
+    {
+      "id": "alien",
+      "codepoint": "1f47d",
+      "category": "Smileys and emotions",
+      "filename": "alien.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f47d/512.webp",
+      "tags": [
+        "alien"
+      ]
+    },
+    {
+      "id": "glowing-star",
+      "codepoint": "1f31f",
+      "category": "Smileys and emotions",
+      "filename": "glowing-star.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f31f/512.webp",
+      "tags": [
+        "glowing-star"
+      ]
+    },
+    {
+      "id": "sparkles",
+      "codepoint": "2728",
+      "category": "Smileys and emotions",
+      "filename": "sparkles.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2728/512.webp",
+      "tags": [
+        "sparkles"
+      ]
+    },
+    {
+      "id": "fire",
+      "codepoint": "1f525",
+      "category": "Smileys and emotions",
+      "filename": "fire.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.webp",
+      "tags": [
+        "fire",
+        "burn",
+        "lit"
+      ]
+    },
+    {
+      "id": "bouquet",
+      "codepoint": "1f490",
+      "category": "Animals and nature",
+      "filename": "bouquet.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f490/512.webp",
+      "tags": [
+        "bouquet",
+        "flowers"
+      ]
+    },
+    {
+      "id": "rose",
+      "codepoint": "1f339",
+      "category": "Animals and nature",
+      "filename": "rose.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f339/512.webp",
+      "tags": [
+        "rose"
+      ]
+    },
+    {
+      "id": "wilted-flower",
+      "codepoint": "1f940",
+      "category": "Animals and nature",
+      "filename": "wilted-flower.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f940/512.webp",
+      "tags": [
+        "wilted-flower"
+      ]
+    },
+    {
+      "id": "tulip",
+      "codepoint": "1f337",
+      "category": "Animals and nature",
+      "filename": "tulip.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f337/512.webp",
+      "tags": [
+        "tulip"
+      ]
+    },
+    {
+      "id": "lotus",
+      "codepoint": "1fab7",
+      "category": "Animals and nature",
+      "filename": "lotus.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fab7/512.webp",
+      "tags": [
+        "lotus"
+      ]
+    },
+    {
+      "id": "cherry-blossom",
+      "codepoint": "1f338",
+      "category": "Animals and nature",
+      "filename": "cherry-blossom.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f338/512.webp",
+      "tags": [
+        "cherry-blossom"
+      ]
+    },
+    {
+      "id": "hyacinth",
+      "codepoint": "1fabb",
+      "category": "Animals and nature",
+      "filename": "hyacinth.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fabb/512.webp",
+      "tags": [
+        "hyacinth"
+      ]
+    },
+    {
+      "id": "blossom",
+      "codepoint": "1f33c",
+      "category": "Animals and nature",
+      "filename": "blossom.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f33c/512.webp",
+      "tags": [
+        "blossom"
+      ]
+    },
+    {
+      "id": "fallen-leaf",
+      "codepoint": "1f342",
+      "category": "Animals and nature",
+      "filename": "fallen-leaf.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f342/512.webp",
+      "tags": [
+        "fallen-leaf"
+      ]
+    },
+    {
+      "id": "maple-leaf",
+      "codepoint": "1f341",
+      "category": "Animals and nature",
+      "filename": "maple-leaf.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f341/512.webp",
+      "tags": [
+        "maple-leaf"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "codepoint": "1f344",
+      "category": "Animals and nature",
+      "filename": "mushroom.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f344/512.webp",
+      "tags": [
+        "mushroom"
+      ]
+    },
+    {
+      "id": "herb",
+      "codepoint": "1f33f",
+      "category": "Animals and nature",
+      "filename": "herb.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f33f/512.webp",
+      "tags": [
+        "herb"
+      ]
+    },
+    {
+      "id": "plant",
+      "codepoint": "1f331",
+      "category": "Animals and nature",
+      "filename": "plant.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f331/512.webp",
+      "tags": [
+        "plant",
+        "seed"
+      ]
+    },
+    {
+      "id": "leaves",
+      "codepoint": "1f343",
+      "category": "Animals and nature",
+      "filename": "leaves.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f343/512.webp",
+      "tags": [
+        "leaves"
+      ]
+    },
+    {
+      "id": "luck",
+      "codepoint": "1f340",
+      "category": "Animals and nature",
+      "filename": "luck.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f340/512.webp",
+      "tags": [
+        "luck",
+        "four-leaf-clover"
+      ]
+    },
+    {
+      "id": "cactus",
+      "codepoint": "1f335",
+      "category": "Animals and nature",
+      "filename": "cactus.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f335/512.webp",
+      "tags": [
+        "cactus"
+      ]
+    },
+    {
+      "id": "leafless-tree",
+      "codepoint": "1fabe",
+      "category": "Animals and nature",
+      "filename": "leafless-tree.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fabe/512.webp",
+      "tags": [
+        "leafless-tree"
+      ]
+    },
+    {
+      "id": "evergreen-tree",
+      "codepoint": "1f332",
+      "category": "Animals and nature",
+      "filename": "evergreen-tree.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f332/512.webp",
+      "tags": [
+        "evergreen-tree"
+      ]
+    },
+    {
+      "id": "rock",
+      "codepoint": "1faa8",
+      "category": "Animals and nature",
+      "filename": "rock.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1faa8/512.webp",
+      "tags": [
+        "rock"
+      ]
+    },
+    {
+      "id": "debris",
+      "codepoint": "1f6d8",
+      "category": "Animals and nature",
+      "filename": "debris.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6d8/512.webp",
+      "tags": [
+        "debris",
+        "landslide"
+      ]
+    },
+    {
+      "id": "national-park",
+      "codepoint": "1f3de_fe0f",
+      "category": "Animals and nature",
+      "filename": "national-park.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3de_fe0f/512.webp",
+      "tags": [
+        "national-park"
+      ]
+    },
+    {
+      "id": "sunrise",
+      "codepoint": "1f305",
+      "category": "Animals and nature",
+      "filename": "sunrise.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f305/512.webp",
+      "tags": [
+        "sunrise"
+      ]
+    },
+    {
+      "id": "sunrise-over-mountains",
+      "codepoint": "1f304",
+      "category": "Animals and nature",
+      "filename": "sunrise-over-mountains.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f304/512.webp",
+      "tags": [
+        "sunrise-over-mountains"
+      ]
+    },
+    {
+      "id": "ocean",
+      "codepoint": "1f30a",
+      "category": "Animals and nature",
+      "filename": "ocean.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f30a/512.webp",
+      "tags": [
+        "ocean"
+      ]
+    },
+    {
+      "id": "wind-face",
+      "codepoint": "1f32c_fe0f",
+      "category": "Animals and nature",
+      "filename": "wind-face.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f32c_fe0f/512.webp",
+      "tags": [
+        "wind-face"
+      ]
+    },
+    {
+      "id": "snowflake",
+      "codepoint": "2744_fe0f",
+      "category": "Animals and nature",
+      "filename": "snowflake.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2744_fe0f/512.webp",
+      "tags": [
+        "snowflake",
+        "winter",
+        "cold"
+      ]
+    },
+    {
+      "id": "cyclone",
+      "codepoint": "1f300",
+      "category": "Animals and nature",
+      "filename": "cyclone.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f300/512.webp",
+      "tags": [
+        "cyclone"
+      ]
+    },
+    {
+      "id": "tornado",
+      "codepoint": "1f32a_fe0f",
+      "category": "Animals and nature",
+      "filename": "tornado.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f32a_fe0f/512.webp",
+      "tags": [
+        "tornado"
+      ]
+    },
+    {
+      "id": "rainbow",
+      "codepoint": "1f308",
+      "category": "Animals and nature",
+      "filename": "rainbow.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f308/512.webp",
+      "tags": [
+        "rainbow"
+      ]
+    },
+    {
+      "id": "droplet",
+      "codepoint": "1f4a7",
+      "category": "Animals and nature",
+      "filename": "droplet.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a7/512.webp",
+      "tags": [
+        "droplet"
+      ]
+    },
+    {
+      "id": "cloud",
+      "codepoint": "2601_fe0f",
+      "category": "Animals and nature",
+      "filename": "cloud.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2601_fe0f/512.webp",
+      "tags": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "rain-cloud",
+      "codepoint": "1f327_fe0f",
+      "category": "Animals and nature",
+      "filename": "rain-cloud.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f327_fe0f/512.webp",
+      "tags": [
+        "rain-cloud"
+      ]
+    },
+    {
+      "id": "cloud-with-lightning",
+      "codepoint": "1f329_fe0f",
+      "category": "Animals and nature",
+      "filename": "cloud-with-lightning.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f329_fe0f/512.webp",
+      "tags": [
+        "cloud-with-lightning"
+      ]
+    },
+    {
+      "id": "partly-sunny",
+      "codepoint": "26c5",
+      "category": "Animals and nature",
+      "filename": "partly-sunny.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/26c5/512.webp",
+      "tags": [
+        "partly-sunny"
+      ]
+    },
+    {
+      "id": "ringed-planet",
+      "codepoint": "1fa90",
+      "category": "Animals and nature",
+      "filename": "ringed-planet.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa90/512.webp",
+      "tags": [
+        "ringed-planet"
+      ]
+    },
+    {
+      "id": "globe-showing-europe-africa",
+      "codepoint": "1f30d",
+      "category": "Animals and nature",
+      "filename": "globe-showing-europe-africa.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f30d/512.webp",
+      "tags": [
+        "globe-showing-europe-africa"
+      ]
+    },
+    {
+      "id": "globe-showing-americas",
+      "codepoint": "1f30e",
+      "category": "Animals and nature",
+      "filename": "globe-showing-americas.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f30e/512.webp",
+      "tags": [
+        "globe-showing-americas"
+      ]
+    },
+    {
+      "id": "globe-showing-asia-australia",
+      "codepoint": "1f30f",
+      "category": "Animals and nature",
+      "filename": "globe-showing-asia-australia.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.webp",
+      "tags": [
+        "globe-showing-asia-australia"
+      ]
+    },
+    {
+      "id": "milky-way",
+      "codepoint": "1f30c",
+      "category": "Animals and nature",
+      "filename": "milky-way.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f30c/512.webp",
+      "tags": [
+        "milky-way"
+      ]
+    },
+    {
+      "id": "comet",
+      "codepoint": "2604_fe0f",
+      "category": "Animals and nature",
+      "filename": "comet.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2604_fe0f/512.webp",
+      "tags": [
+        "comet"
+      ]
+    },
+    {
+      "id": "lion-face",
+      "codepoint": "1f981",
+      "category": "Animals and nature",
+      "filename": "lion-face.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f981/512.webp",
+      "tags": [
+        "lion-face"
+      ]
+    },
+    {
+      "id": "wolf",
+      "codepoint": "1f43a",
+      "category": "Animals and nature",
+      "filename": "wolf.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f43a/512.webp",
+      "tags": [
+        "wolf"
+      ]
+    },
+    {
+      "id": "bear-face",
+      "codepoint": "1f43b",
+      "category": "Animals and nature",
+      "filename": "bear-face.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f43b/512.webp",
+      "tags": [
+        "bear-face"
+      ]
+    },
+    {
+      "id": "panda",
+      "codepoint": "1f43c",
+      "category": "Animals and nature",
+      "filename": "panda.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f43c/512.webp",
+      "tags": [
+        "panda"
+      ]
+    },
+    {
+      "id": "fox-face",
+      "codepoint": "1f98a",
+      "category": "Animals and nature",
+      "filename": "fox-face.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98a/512.webp",
+      "tags": [
+        "fox-face"
+      ]
+    },
+    {
+      "id": "cow-face",
+      "codepoint": "1f42e",
+      "category": "Animals and nature",
+      "filename": "cow-face.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f42e/512.webp",
+      "tags": [
+        "cow-face"
+      ]
+    },
+    {
+      "id": "unicorn",
+      "codepoint": "1f984",
+      "category": "Animals and nature",
+      "filename": "unicorn.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f984/512.webp",
+      "tags": [
+        "unicorn"
+      ]
+    },
+    {
+      "id": "lizard",
+      "codepoint": "1f98e",
+      "category": "Animals and nature",
+      "filename": "lizard.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98e/512.webp",
+      "tags": [
+        "lizard"
+      ]
+    },
+    {
+      "id": "dragon",
+      "codepoint": "1f409",
+      "category": "Animals and nature",
+      "filename": "dragon.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f409/512.webp",
+      "tags": [
+        "dragon"
+      ]
+    },
+    {
+      "id": "t-rex",
+      "codepoint": "1f996",
+      "category": "Animals and nature",
+      "filename": "t-rex.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f996/512.webp",
+      "tags": [
+        "t-rex"
+      ]
+    },
+    {
+      "id": "dinosaur",
+      "codepoint": "1f995",
+      "category": "Animals and nature",
+      "filename": "dinosaur.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f995/512.webp",
+      "tags": [
+        "dinosaur"
+      ]
+    },
+    {
+      "id": "turtle",
+      "codepoint": "1f422",
+      "category": "Animals and nature",
+      "filename": "turtle.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f422/512.webp",
+      "tags": [
+        "turtle"
+      ]
+    },
+    {
+      "id": "crocodile",
+      "codepoint": "1f40a",
+      "category": "Animals and nature",
+      "filename": "crocodile.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40a/512.webp",
+      "tags": [
+        "crocodile"
+      ]
+    },
+    {
+      "id": "snake",
+      "codepoint": "1f40d",
+      "category": "Animals and nature",
+      "filename": "snake.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40d/512.webp",
+      "tags": [
+        "snake"
+      ]
+    },
+    {
+      "id": "frog",
+      "codepoint": "1f438",
+      "category": "Animals and nature",
+      "filename": "frog.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f438/512.webp",
+      "tags": [
+        "frog"
+      ]
+    },
+    {
+      "id": "rabbit",
+      "codepoint": "1f407",
+      "category": "Animals and nature",
+      "filename": "rabbit.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f407/512.webp",
+      "tags": [
+        "rabbit"
+      ]
+    },
+    {
+      "id": "poodle",
+      "codepoint": "1f429",
+      "category": "Animals and nature",
+      "filename": "poodle.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f429/512.webp",
+      "tags": [
+        "poodle"
+      ]
+    },
+    {
+      "id": "dog",
+      "codepoint": "1f415",
+      "category": "Animals and nature",
+      "filename": "dog.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f415/512.webp",
+      "tags": [
+        "dog"
+      ]
+    },
+    {
+      "id": "guide-dog",
+      "codepoint": "1f9ae",
+      "category": "Animals and nature",
+      "filename": "guide-dog.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9ae/512.webp",
+      "tags": [
+        "guide-dog"
+      ]
+    },
+    {
+      "id": "service-dog",
+      "codepoint": "1f415_200d_1f9ba",
+      "category": "Animals and nature",
+      "filename": "service-dog.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f415_200d_1f9ba/512.webp",
+      "tags": [
+        "service-dog"
+      ]
+    },
+    {
+      "id": "racehorse",
+      "codepoint": "1f40e",
+      "category": "Animals and nature",
+      "filename": "racehorse.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40e/512.webp",
+      "tags": [
+        "racehorse"
+      ]
+    },
+    {
+      "id": "donkey",
+      "codepoint": "1facf",
+      "category": "Animals and nature",
+      "filename": "donkey.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1facf/512.webp",
+      "tags": [
+        "donkey"
+      ]
+    },
+    {
+      "id": "ox",
+      "codepoint": "1f402",
+      "category": "Animals and nature",
+      "filename": "ox.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f402/512.webp",
+      "tags": [
+        "ox"
+      ]
+    },
+    {
+      "id": "goat",
+      "codepoint": "1f410",
+      "category": "Animals and nature",
+      "filename": "goat.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f410/512.webp",
+      "tags": [
+        "goat"
+      ]
+    },
+    {
+      "id": "sloth",
+      "codepoint": "1f9a5",
+      "category": "Animals and nature",
+      "filename": "sloth.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a5/512.webp",
+      "tags": [
+        "sloth"
+      ]
+    },
+    {
+      "id": "kangaroo",
+      "codepoint": "1f998",
+      "category": "Animals and nature",
+      "filename": "kangaroo.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f998/512.webp",
+      "tags": [
+        "kangaroo"
+      ]
+    },
+    {
+      "id": "tiger",
+      "codepoint": "1f405",
+      "category": "Animals and nature",
+      "filename": "tiger.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f405/512.webp",
+      "tags": [
+        "tiger"
+      ]
+    },
+    {
+      "id": "monkey",
+      "codepoint": "1f412",
+      "category": "Animals and nature",
+      "filename": "monkey.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f412/512.webp",
+      "tags": [
+        "monkey"
+      ]
+    },
+    {
+      "id": "gorilla",
+      "codepoint": "1f98d",
+      "category": "Animals and nature",
+      "filename": "gorilla.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f98d/512.webp",
+      "tags": [
+        "gorilla"
+      ]
+    },
+    {
+      "id": "orangutan",
+      "codepoint": "1f9a7",
+      "category": "Animals and nature",
+      "filename": "orangutan.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a7/512.webp",
+      "tags": [
+        "orangutan"
+      ]
+    },
+    {
+      "id": "chipmunk",
+      "codepoint": "1f43f_fe0f",
+      "category": "Animals and nature",
+      "filename": "chipmunk.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f43f_fe0f/512.webp",
+      "tags": [
+        "chipmunk"
+      ]
+    },
+    {
+      "id": "raccoon",
+      "codepoint": "1f99d",
+      "category": "Animals and nature",
+      "filename": "raccoon.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f99d/512.webp",
+      "tags": [
+        "raccoon"
+      ]
+    },
+    {
+      "id": "hedgehog",
+      "codepoint": "1f994",
+      "category": "Animals and nature",
+      "filename": "hedgehog.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f994/512.webp",
+      "tags": [
+        "hedgehog"
+      ]
+    },
+    {
+      "id": "otter",
+      "codepoint": "1f9a6",
+      "category": "Animals and nature",
+      "filename": "otter.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a6/512.webp",
+      "tags": [
+        "otter"
+      ]
+    },
+    {
+      "id": "bird",
+      "codepoint": "1f426",
+      "category": "Animals and nature",
+      "filename": "bird.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f426/512.webp",
+      "tags": [
+        "bird"
+      ]
+    },
+    {
+      "id": "black-bird",
+      "codepoint": "1f426_200d_2b1b",
+      "category": "Animals and nature",
+      "filename": "black-bird.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f426_200d_2b1b/512.webp",
+      "tags": [
+        "black-bird"
+      ]
+    },
+    {
+      "id": "rooster",
+      "codepoint": "1f413",
+      "category": "Animals and nature",
+      "filename": "rooster.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f413/512.webp",
+      "tags": [
+        "rooster"
+      ]
+    },
+    {
+      "id": "hatching-chick",
+      "codepoint": "1f423",
+      "category": "Animals and nature",
+      "filename": "hatching-chick.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f423/512.webp",
+      "tags": [
+        "hatching-chick"
+      ]
+    },
+    {
+      "id": "baby-chick",
+      "codepoint": "1f424",
+      "category": "Animals and nature",
+      "filename": "baby-chick.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f424/512.webp",
+      "tags": [
+        "baby-chick"
+      ]
+    },
+    {
+      "id": "hatched-chick",
+      "codepoint": "1f425",
+      "category": "Animals and nature",
+      "filename": "hatched-chick.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f425/512.webp",
+      "tags": [
+        "hatched-chick"
+      ]
+    },
+    {
+      "id": "eagle",
+      "codepoint": "1f985",
+      "category": "Animals and nature",
+      "filename": "eagle.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f985/512.webp",
+      "tags": [
+        "eagle"
+      ]
+    },
+    {
+      "id": "owl",
+      "codepoint": "1f989",
+      "category": "Animals and nature",
+      "filename": "owl.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f989/512.webp",
+      "tags": [
+        "owl"
+      ]
+    },
+    {
+      "id": "peace",
+      "codepoint": "1f54a_fe0f",
+      "category": "Animals and nature",
+      "filename": "peace.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f54a_fe0f/512.webp",
+      "tags": [
+        "peace",
+        "dove"
+      ]
+    },
+    {
+      "id": "goose",
+      "codepoint": "1fabf",
+      "category": "Animals and nature",
+      "filename": "goose.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fabf/512.webp",
+      "tags": [
+        "goose"
+      ]
+    },
+    {
+      "id": "flamingo",
+      "codepoint": "1f9a9",
+      "category": "Animals and nature",
+      "filename": "flamingo.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9a9/512.webp",
+      "tags": [
+        "flamingo"
+      ]
+    },
+    {
+      "id": "peacock",
+      "codepoint": "1f99a",
+      "category": "Animals and nature",
+      "filename": "peacock.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f99a/512.webp",
+      "tags": [
+        "peacock"
+      ]
+    },
+    {
+      "id": "phoenix",
+      "codepoint": "1f426_200d_1f525",
+      "category": "Animals and nature",
+      "filename": "phoenix.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f426_200d_1f525/512.webp",
+      "tags": [
+        "phoenix"
+      ]
+    },
+    {
+      "id": "penguin",
+      "codepoint": "1f427",
+      "category": "Animals and nature",
+      "filename": "penguin.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f427/512.webp",
+      "tags": [
+        "penguin"
+      ]
+    },
+    {
+      "id": "seal",
+      "codepoint": "1f9ad",
+      "category": "Animals and nature",
+      "filename": "seal.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9ad/512.webp",
+      "tags": [
+        "seal"
+      ]
+    },
+    {
+      "id": "shark",
+      "codepoint": "1f988",
+      "category": "Animals and nature",
+      "filename": "shark.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f988/512.webp",
+      "tags": [
+        "shark"
+      ]
+    },
+    {
+      "id": "orca",
+      "codepoint": "1facd",
+      "category": "Animals and nature",
+      "filename": "orca.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1facd/512.webp",
+      "tags": [
+        "orca"
+      ]
+    },
+    {
+      "id": "dolphin",
+      "codepoint": "1f42c",
+      "category": "Animals and nature",
+      "filename": "dolphin.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f42c/512.webp",
+      "tags": [
+        "dolphin"
+      ]
+    },
+    {
+      "id": "whale",
+      "codepoint": "1f433",
+      "category": "Animals and nature",
+      "filename": "whale.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f433/512.webp",
+      "tags": [
+        "whale"
+      ]
+    },
+    {
+      "id": "fish",
+      "codepoint": "1f41f",
+      "category": "Animals and nature",
+      "filename": "fish.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41f/512.webp",
+      "tags": [
+        "fish"
+      ]
+    },
+    {
+      "id": "blowfish",
+      "codepoint": "1f421",
+      "category": "Animals and nature",
+      "filename": "blowfish.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f421/512.webp",
+      "tags": [
+        "blowfish"
+      ]
+    },
+    {
+      "id": "lobster",
+      "codepoint": "1f99e",
+      "category": "Animals and nature",
+      "filename": "lobster.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f99e/512.webp",
+      "tags": [
+        "lobster"
+      ]
+    },
+    {
+      "id": "crab",
+      "codepoint": "1f980",
+      "category": "Animals and nature",
+      "filename": "crab.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f980/512.webp",
+      "tags": [
+        "crab"
+      ]
+    },
+    {
+      "id": "octopus",
+      "codepoint": "1f419",
+      "category": "Animals and nature",
+      "filename": "octopus.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f419/512.webp",
+      "tags": [
+        "octopus"
+      ]
+    },
+    {
+      "id": "jellyfish",
+      "codepoint": "1fabc",
+      "category": "Animals and nature",
+      "filename": "jellyfish.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fabc/512.webp",
+      "tags": [
+        "jellyfish"
+      ]
+    },
+    {
+      "id": "bubbles",
+      "codepoint": "1fae7",
+      "category": "Animals and nature",
+      "filename": "bubbles.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fae7/512.webp",
+      "tags": [
+        "bubbles"
+      ]
+    },
+    {
+      "id": "snail",
+      "codepoint": "1f40c",
+      "category": "Animals and nature",
+      "filename": "snail.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f40c/512.webp",
+      "tags": [
+        "snail"
+      ]
+    },
+    {
+      "id": "ant",
+      "codepoint": "1f41c",
+      "category": "Animals and nature",
+      "filename": "ant.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41c/512.webp",
+      "tags": [
+        "ant"
+      ]
+    },
+    {
+      "id": "bee",
+      "codepoint": "1f41d",
+      "category": "Animals and nature",
+      "filename": "bee.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41d/512.webp",
+      "tags": [
+        "bee"
+      ]
+    },
+    {
+      "id": "lady-bug",
+      "codepoint": "1f41e",
+      "category": "Animals and nature",
+      "filename": "lady-bug.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41e/512.webp",
+      "tags": [
+        "lady-bug"
+      ]
+    },
+    {
+      "id": "bug",
+      "codepoint": "1f41b",
+      "category": "Animals and nature",
+      "filename": "bug.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f41b/512.webp",
+      "tags": [
+        "bug"
+      ]
+    },
+    {
+      "id": "paw prints",
+      "codepoint": "1f43e",
+      "category": "Animals and nature",
+      "filename": "paw prints.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f43e/512.webp",
+      "tags": [
+        "paw prints"
+      ]
+    },
+    {
+      "id": "strawberry",
+      "codepoint": "1f353",
+      "category": "Food and drink",
+      "filename": "strawberry.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f353/512.webp",
+      "tags": [
+        "strawberry"
+      ]
+    },
+    {
+      "id": "cherries",
+      "codepoint": "1f352",
+      "category": "Food and drink",
+      "filename": "cherries.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f352/512.webp",
+      "tags": [
+        "cherries"
+      ]
+    },
+    {
+      "id": "red-apple",
+      "codepoint": "1f34e",
+      "category": "Food and drink",
+      "filename": "red-apple.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f34e/512.webp",
+      "tags": [
+        "red-apple"
+      ]
+    },
+    {
+      "id": "tomato",
+      "codepoint": "1f345",
+      "category": "Food and drink",
+      "filename": "tomato.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f345/512.webp",
+      "tags": [
+        "tomato"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "codepoint": "1f349",
+      "category": "Food and drink",
+      "filename": "watermelon.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f349/512.webp",
+      "tags": [
+        "watermelon"
+      ]
+    },
+    {
+      "id": "tangerine",
+      "codepoint": "1f34a",
+      "category": "Food and drink",
+      "filename": "tangerine.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f34a/512.webp",
+      "tags": [
+        "tangerine",
+        "orange",
+        "mandarin"
+      ]
+    },
+    {
+      "id": "carrot",
+      "codepoint": "1f955",
+      "category": "Food and drink",
+      "filename": "carrot.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f955/512.webp",
+      "tags": [
+        "carrot"
+      ]
+    },
+    {
+      "id": "mango",
+      "codepoint": "1f96d",
+      "category": "Food and drink",
+      "filename": "mango.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f96d/512.webp",
+      "tags": [
+        "mango"
+      ]
+    },
+    {
+      "id": "pineapple",
+      "codepoint": "1f34d",
+      "category": "Food and drink",
+      "filename": "pineapple.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f34d/512.webp",
+      "tags": [
+        "pineapple"
+      ]
+    },
+    {
+      "id": "ear-of-corn",
+      "codepoint": "1f33d",
+      "category": "Food and drink",
+      "filename": "ear-of-corn.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f33d/512.webp",
+      "tags": [
+        "ear-of-corn"
+      ]
+    },
+    {
+      "id": "lemon",
+      "codepoint": "1f34b",
+      "category": "Food and drink",
+      "filename": "lemon.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f34b/512.webp",
+      "tags": [
+        "lemon"
+      ]
+    },
+    {
+      "id": "melon",
+      "codepoint": "1f348",
+      "category": "Food and drink",
+      "filename": "melon.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f348/512.webp",
+      "tags": [
+        "melon"
+      ]
+    },
+    {
+      "id": "pear",
+      "codepoint": "1f350",
+      "category": "Food and drink",
+      "filename": "pear.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f350/512.webp",
+      "tags": [
+        "pear"
+      ]
+    },
+    {
+      "id": "pea-pod",
+      "codepoint": "1fadb",
+      "category": "Food and drink",
+      "filename": "pea-pod.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fadb/512.webp",
+      "tags": [
+        "pea-pod"
+      ]
+    },
+    {
+      "id": "leafy-green",
+      "codepoint": "1f96c",
+      "category": "Food and drink",
+      "filename": "leafy-green.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f96c/512.webp",
+      "tags": [
+        "leafy-green"
+      ]
+    },
+    {
+      "id": "bell-pepper",
+      "codepoint": "1fad1",
+      "category": "Food and drink",
+      "filename": "bell-pepper.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fad1/512.webp",
+      "tags": [
+        "bell-pepper"
+      ]
+    },
+    {
+      "id": "kiwi-fruit",
+      "codepoint": "1f95d",
+      "category": "Food and drink",
+      "filename": "kiwi-fruit.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f95d/512.webp",
+      "tags": [
+        "kiwi-fruit"
+      ]
+    },
+    {
+      "id": "avocado",
+      "codepoint": "1f951",
+      "category": "Food and drink",
+      "filename": "avocado.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f951/512.webp",
+      "tags": [
+        "avocado"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "codepoint": "1f952",
+      "category": "Food and drink",
+      "filename": "cucumber.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f952/512.webp",
+      "tags": [
+        "cucumber"
+      ]
+    },
+    {
+      "id": "blueberries",
+      "codepoint": "1fad0",
+      "category": "Food and drink",
+      "filename": "blueberries.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fad0/512.webp",
+      "tags": [
+        "blueberries"
+      ]
+    },
+    {
+      "id": "grapes",
+      "codepoint": "1f347",
+      "category": "Food and drink",
+      "filename": "grapes.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f347/512.webp",
+      "tags": [
+        "grapes"
+      ]
+    },
+    {
+      "id": "root-vegetable",
+      "codepoint": "1fadc",
+      "category": "Food and drink",
+      "filename": "root-vegetable.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fadc/512.webp",
+      "tags": [
+        "root-vegetable",
+        "beet",
+        "turnip"
+      ]
+    },
+    {
+      "id": "ginger",
+      "codepoint": "1fada",
+      "category": "Food and drink",
+      "filename": "ginger.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fada/512.webp",
+      "tags": [
+        "ginger"
+      ]
+    },
+    {
+      "id": "beans",
+      "codepoint": "1fad8",
+      "category": "Food and drink",
+      "filename": "beans.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fad8/512.webp",
+      "tags": [
+        "beans"
+      ]
+    },
+    {
+      "id": "bread",
+      "codepoint": "1f35e",
+      "category": "Food and drink",
+      "filename": "bread.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f35e/512.webp",
+      "tags": [
+        "bread"
+      ]
+    },
+    {
+      "id": "pancakes",
+      "codepoint": "1f95e",
+      "category": "Food and drink",
+      "filename": "pancakes.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f95e/512.webp",
+      "tags": [
+        "pancakes"
+      ]
+    },
+    {
+      "id": "cooking",
+      "codepoint": "1f373",
+      "category": "Food and drink",
+      "filename": "cooking.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f373/512.webp",
+      "tags": [
+        "cooking"
+      ]
+    },
+    {
+      "id": "cheese-wedge",
+      "codepoint": "1f9c0",
+      "category": "Food and drink",
+      "filename": "cheese-wedge.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c0/512.webp",
+      "tags": [
+        "cheese-wedge"
+      ]
+    },
+    {
+      "id": "pretzel",
+      "codepoint": "1f968",
+      "category": "Food and drink",
+      "filename": "pretzel.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f968/512.webp",
+      "tags": [
+        "pretzel"
+      ]
+    },
+    {
+      "id": "pizza",
+      "codepoint": "1f355",
+      "category": "Food and drink",
+      "filename": "pizza.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f355/512.webp",
+      "tags": [
+        "pizza"
+      ]
+    },
+    {
+      "id": "spaghetti",
+      "codepoint": "1f35d",
+      "category": "Food and drink",
+      "filename": "spaghetti.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f35d/512.webp",
+      "tags": [
+        "spaghetti"
+      ]
+    },
+    {
+      "id": "green-salad",
+      "codepoint": "1f957",
+      "category": "Food and drink",
+      "filename": "green-salad.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f957/512.webp",
+      "tags": [
+        "green-salad"
+      ]
+    },
+    {
+      "id": "steaming-bowl",
+      "codepoint": "1f35c",
+      "category": "Food and drink",
+      "filename": "steaming-bowl.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f35c/512.webp",
+      "tags": [
+        "steaming-bowl"
+      ]
+    },
+    {
+      "id": "oden",
+      "codepoint": "1f362",
+      "category": "Food and drink",
+      "filename": "oden.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f362/512.webp",
+      "tags": [
+        "oden"
+      ]
+    },
+    {
+      "id": "dango",
+      "codepoint": "1f361",
+      "category": "Food and drink",
+      "filename": "dango.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f361/512.webp",
+      "tags": [
+        "dango"
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "codepoint": "1f368",
+      "category": "Food and drink",
+      "filename": "ice-cream.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f368/512.webp",
+      "tags": [
+        "ice-cream"
+      ]
+    },
+    {
+      "id": "soft-ice-cream",
+      "codepoint": "1f366",
+      "category": "Food and drink",
+      "filename": "soft-ice-cream.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f366/512.webp",
+      "tags": [
+        "soft-ice-cream"
+      ]
+    },
+    {
+      "id": "pie",
+      "codepoint": "1f967",
+      "category": "Food and drink",
+      "filename": "pie.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f967/512.webp",
+      "tags": [
+        "pie"
+      ]
+    },
+    {
+      "id": "doughnut",
+      "codepoint": "1f369",
+      "category": "Food and drink",
+      "filename": "doughnut.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f369/512.webp",
+      "tags": [
+        "doughnut"
+      ]
+    },
+    {
+      "id": "cookie",
+      "codepoint": "1f36a",
+      "category": "Food and drink",
+      "filename": "cookie.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f36a/512.webp",
+      "tags": [
+        "cookie"
+      ]
+    },
+    {
+      "id": "popcorn",
+      "codepoint": "1f37f",
+      "category": "Food and drink",
+      "filename": "popcorn.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f37f/512.webp",
+      "tags": [
+        "popcorn"
+      ]
+    },
+    {
+      "id": "bubble-tea",
+      "codepoint": "1f9cb",
+      "category": "Food and drink",
+      "filename": "bubble-tea.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9cb/512.webp",
+      "tags": [
+        "bubble-tea",
+        "milk-tea"
+      ]
+    },
+    {
+      "id": "beverage-box",
+      "codepoint": "1f9c3",
+      "category": "Food and drink",
+      "filename": "beverage-box.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c3/512.webp",
+      "tags": [
+        "beverage-box"
+      ]
+    },
+    {
+      "id": "baby-bottle",
+      "codepoint": "1f37c",
+      "category": "Food and drink",
+      "filename": "baby-bottle.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f37c/512.webp",
+      "tags": [
+        "baby-bottle"
+      ]
+    },
+    {
+      "id": "teacup-without-handle",
+      "codepoint": "1f375",
+      "category": "Food and drink",
+      "filename": "teacup-without-handle.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f375/512.webp",
+      "tags": [
+        "teacup-without-handle"
+      ]
+    },
+    {
+      "id": "hot-beverage",
+      "codepoint": "2615",
+      "category": "Food and drink",
+      "filename": "hot-beverage.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2615/512.webp",
+      "tags": [
+        "hot-beverage"
+      ]
+    },
+    {
+      "id": "teapot",
+      "codepoint": "1fad6",
+      "category": "Food and drink",
+      "filename": "teapot.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fad6/512.webp",
+      "tags": [
+        "teapot"
+      ]
+    },
+    {
+      "id": "mate",
+      "codepoint": "1f9c9",
+      "category": "Food and drink",
+      "filename": "mate.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9c9/512.webp",
+      "tags": [
+        "mate"
+      ]
+    },
+    {
+      "id": "clinking-beer-mugs",
+      "codepoint": "1f37b",
+      "category": "Food and drink",
+      "filename": "clinking-beer-mugs.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f37b/512.webp",
+      "tags": [
+        "clinking-beer-mugs"
+      ]
+    },
+    {
+      "id": "bottle-with-popping-cork",
+      "codepoint": "1f37e",
+      "category": "Food and drink",
+      "filename": "bottle-with-popping-cork.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f37e/512.webp",
+      "tags": [
+        "bottle-with-popping-cork"
+      ]
+    },
+    {
+      "id": "wine-glass",
+      "codepoint": "1f377",
+      "category": "Food and drink",
+      "filename": "wine-glass.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f377/512.webp",
+      "tags": [
+        "wine-glass"
+      ]
+    },
+    {
+      "id": "pour",
+      "codepoint": "1fad7",
+      "category": "Food and drink",
+      "filename": "pour.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fad7/512.webp",
+      "tags": [
+        "pour"
+      ]
+    },
+    {
+      "id": "tropical-drink",
+      "codepoint": "1f379",
+      "category": "Food and drink",
+      "filename": "tropical-drink.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f379/512.webp",
+      "tags": [
+        "tropical-drink"
+      ]
+    },
+    {
+      "id": "chopsticks",
+      "codepoint": "1f962",
+      "category": "Food and drink",
+      "filename": "chopsticks.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f962/512.webp",
+      "tags": [
+        "chopsticks"
+      ]
+    },
+    {
+      "id": "ring-buoy",
+      "codepoint": "1f6df",
+      "category": "Travel and places",
+      "filename": "ring-buoy.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6df/512.webp",
+      "tags": [
+        "ring-buoy"
+      ]
+    },
+    {
+      "id": "anchor",
+      "codepoint": "2693",
+      "category": "Travel and places",
+      "filename": "anchor.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2693/512.webp",
+      "tags": [
+        "anchor"
+      ]
+    },
+    {
+      "id": "bicycle",
+      "codepoint": "1f6b2",
+      "category": "Travel and places",
+      "filename": "bicycle.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6b2/512.webp",
+      "tags": [
+        "bicycle"
+      ]
+    },
+    {
+      "id": "locomotive",
+      "codepoint": "1f682",
+      "category": "Travel and places",
+      "filename": "locomotive.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f682/512.webp",
+      "tags": [
+        "locomotive"
+      ]
+    },
+    {
+      "id": "sailboat",
+      "codepoint": "26f5",
+      "category": "Travel and places",
+      "filename": "sailboat.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/26f5/512.webp",
+      "tags": [
+        "sailboat"
+      ]
+    },
+    {
+      "id": "rocket",
+      "codepoint": "1f680",
+      "category": "Travel and places",
+      "filename": "rocket.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp",
+      "tags": [
+        "rocket"
+      ]
+    },
+    {
+      "id": "airplane",
+      "codepoint": "2708_fe0f",
+      "category": "Travel and places",
+      "filename": "airplane.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2708_fe0f/512.webp",
+      "tags": [
+        "airplane"
+      ]
+    },
+    {
+      "id": "airplane-departure",
+      "codepoint": "1f6eb",
+      "category": "Travel and places",
+      "filename": "airplane-departure.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6eb/512.webp",
+      "tags": [
+        "airplane-departure"
+      ]
+    },
+    {
+      "id": "airplane-arrival",
+      "codepoint": "1f6ec",
+      "category": "Travel and places",
+      "filename": "airplane-arrival.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ec/512.webp",
+      "tags": [
+        "airplane-arrival"
+      ]
+    },
+    {
+      "id": "roller-coaster",
+      "codepoint": "1f3a2",
+      "category": "Travel and places",
+      "filename": "roller-coaster.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3a2/512.webp",
+      "tags": [
+        "roller-coaster"
+      ]
+    },
+    {
+      "id": "ferris-wheel",
+      "codepoint": "1f3a1",
+      "category": "Travel and places",
+      "filename": "ferris-wheel.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3a1/512.webp",
+      "tags": [
+        "ferris-wheel"
+      ]
+    },
+    {
+      "id": "carousel-horse",
+      "codepoint": "1f3a0",
+      "category": "Travel and places",
+      "filename": "carousel-horse.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3a0/512.webp",
+      "tags": [
+        "carousel-horse"
+      ]
+    },
+    {
+      "id": "moai",
+      "codepoint": "1f5ff",
+      "category": "Travel and places",
+      "filename": "moai.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f5ff/512.webp",
+      "tags": [
+        "moai"
+      ]
+    },
+    {
+      "id": "derelict-house",
+      "codepoint": "1f3da_fe0f",
+      "category": "Travel and places",
+      "filename": "derelict-house.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3da_fe0f/512.webp",
+      "tags": [
+        "derelict-house"
+      ]
+    },
+    {
+      "id": "house",
+      "codepoint": "1f3e0",
+      "category": "Travel and places",
+      "filename": "house.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3e0/512.webp",
+      "tags": [
+        "house"
+      ]
+    },
+    {
+      "id": "camping",
+      "codepoint": "1f3d5_fe0f",
+      "category": "Travel and places",
+      "filename": "camping.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3d5_fe0f/512.webp",
+      "tags": [
+        "camping"
+      ]
+    },
+    {
+      "id": "sunset",
+      "codepoint": "1f307",
+      "category": "Travel and places",
+      "filename": "sunset.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f307/512.webp",
+      "tags": [
+        "sunset"
+      ]
+    },
+    {
+      "id": "balloon",
+      "codepoint": "1f388",
+      "category": "Activities and events",
+      "filename": "balloon.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f388/512.webp",
+      "tags": [
+        "balloon"
+      ]
+    },
+    {
+      "id": "birthday-cake",
+      "codepoint": "1f382",
+      "category": "Activities and events",
+      "filename": "birthday-cake.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f382/512.webp",
+      "tags": [
+        "birthday-cake"
+      ]
+    },
+    {
+      "id": "wrapped-gift",
+      "codepoint": "1f381",
+      "category": "Activities and events",
+      "filename": "wrapped-gift.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f381/512.webp",
+      "tags": [
+        "wrapped-gift"
+      ]
+    },
+    {
+      "id": "fireworks",
+      "codepoint": "1f386",
+      "category": "Activities and events",
+      "filename": "fireworks.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f386/512.webp",
+      "tags": [
+        "fireworks"
+      ]
+    },
+    {
+      "id": "diya-lamp",
+      "codepoint": "1fa94",
+      "category": "Activities and events",
+      "filename": "diya-lamp.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa94/512.webp",
+      "tags": [
+        "diya-lamp"
+      ]
+    },
+    {
+      "id": "piñata",
+      "codepoint": "1fa85",
+      "category": "Activities and events",
+      "filename": "piñata.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa85/512.webp",
+      "tags": [
+        "piñata"
+      ]
+    },
+    {
+      "id": "mirror-ball",
+      "codepoint": "1faa9",
+      "category": "Activities and events",
+      "filename": "mirror-ball.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1faa9/512.webp",
+      "tags": [
+        "mirror-ball",
+        "disco-ball"
+      ]
+    },
+    {
+      "id": "tennis",
+      "codepoint": "1f3be",
+      "category": "Activities and events",
+      "filename": "tennis.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3be/512.webp",
+      "tags": [
+        "tennis"
+      ]
+    },
+    {
+      "id": "skis",
+      "codepoint": "1f3bf",
+      "category": "Activities and events",
+      "filename": "skis.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3bf/512.webp",
+      "tags": [
+        "skis"
+      ]
+    },
+    {
+      "id": "ice-skate",
+      "codepoint": "26f8_fe0f",
+      "category": "Activities and events",
+      "filename": "ice-skate.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/26f8_fe0f/512.webp",
+      "tags": [
+        "ice-skate"
+      ]
+    },
+    {
+      "id": "roller-skates",
+      "codepoint": "1f6fc",
+      "category": "Activities and events",
+      "filename": "roller-skates.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6fc/512.webp",
+      "tags": [
+        "roller-skates"
+      ]
+    },
+    {
+      "id": "flag-in-hole",
+      "codepoint": "26f3",
+      "category": "Activities and events",
+      "filename": "flag-in-hole.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/26f3/512.webp",
+      "tags": [
+        "flag-in-hole"
+      ]
+    },
+    {
+      "id": "direct-hit",
+      "codepoint": "1f3af",
+      "category": "Activities and events",
+      "filename": "direct-hit.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.webp",
+      "tags": [
+        "direct-hit",
+        "target"
+      ]
+    },
+    {
+      "id": "boomerang",
+      "codepoint": "1fa83",
+      "category": "Activities and events",
+      "filename": "boomerang.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa83/512.webp",
+      "tags": [
+        "boomerang"
+      ]
+    },
+    {
+      "id": "kite",
+      "codepoint": "1fa81",
+      "category": "Activities and events",
+      "filename": "kite.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa81/512.webp",
+      "tags": [
+        "kite"
+      ]
+    },
+    {
+      "id": "fishing-pole",
+      "codepoint": "1f3a3",
+      "category": "Activities and events",
+      "filename": "fishing-pole.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3a3/512.webp",
+      "tags": [
+        "fishing-pole"
+      ]
+    },
+    {
+      "id": "8-ball",
+      "codepoint": "1f3b1",
+      "category": "Activities and events",
+      "filename": "8-ball.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b1/512.webp",
+      "tags": [
+        "8-ball"
+      ]
+    },
+    {
+      "id": "wand",
+      "codepoint": "1fa84",
+      "category": "Activities and events",
+      "filename": "wand.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa84/512.webp",
+      "tags": [
+        "wand"
+      ]
+    },
+    {
+      "id": "camera",
+      "codepoint": "1f4f7",
+      "category": "Activities and events",
+      "filename": "camera.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f7/512.webp",
+      "tags": [
+        "camera"
+      ]
+    },
+    {
+      "id": "camera-flash",
+      "codepoint": "1f4f8",
+      "category": "Activities and events",
+      "filename": "camera-flash.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4f8/512.webp",
+      "tags": [
+        "camera-flash"
+      ]
+    },
+    {
+      "id": "splatter",
+      "codepoint": "1fadf",
+      "category": "Activities and events",
+      "filename": "splatter.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fadf/512.webp",
+      "tags": [
+        "splatter"
+      ]
+    },
+    {
+      "id": "saxophone",
+      "codepoint": "1f3b7",
+      "category": "Activities and events",
+      "filename": "saxophone.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b7/512.webp",
+      "tags": [
+        "saxophone"
+      ]
+    },
+    {
+      "id": "trumpet",
+      "codepoint": "1f3ba",
+      "category": "Activities and events",
+      "filename": "trumpet.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ba/512.webp",
+      "tags": [
+        "trumpet"
+      ]
+    },
+    {
+      "id": "guitar",
+      "codepoint": "1f3b8",
+      "category": "Activities and events",
+      "filename": "guitar.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3b8/512.webp",
+      "tags": [
+        "guitar"
+      ]
+    },
+    {
+      "id": "banjo",
+      "codepoint": "1fa95",
+      "category": "Activities and events",
+      "filename": "banjo.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa95/512.webp",
+      "tags": [
+        "banjo"
+      ]
+    },
+    {
+      "id": "violin",
+      "codepoint": "1f3bb",
+      "category": "Activities and events",
+      "filename": "violin.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3bb/512.webp",
+      "tags": [
+        "violin"
+      ]
+    },
+    {
+      "id": "harp",
+      "codepoint": "1fa89",
+      "category": "Activities and events",
+      "filename": "harp.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa89/512.webp",
+      "tags": [
+        "harp"
+      ]
+    },
+    {
+      "id": "drum",
+      "codepoint": "1f941",
+      "category": "Activities and events",
+      "filename": "drum.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f941/512.webp",
+      "tags": [
+        "drum"
+      ]
+    },
+    {
+      "id": "maracas",
+      "codepoint": "1fa87",
+      "category": "Activities and events",
+      "filename": "maracas.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa87/512.webp",
+      "tags": [
+        "maracas"
+      ]
+    },
+    {
+      "id": "television",
+      "codepoint": "1f4fa",
+      "category": "Activities and events",
+      "filename": "television.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4fa/512.webp",
+      "tags": [
+        "television"
+      ]
+    },
+    {
+      "id": "film",
+      "codepoint": "1f39e_fe0f",
+      "category": "Activities and events",
+      "filename": "film.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f39e_fe0f/512.webp",
+      "tags": [
+        "film"
+      ]
+    },
+    {
+      "id": "clapper",
+      "codepoint": "1f3ac",
+      "category": "Activities and events",
+      "filename": "clapper.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.webp",
+      "tags": [
+        "clapper"
+      ]
+    },
+    {
+      "id": "performing-arts",
+      "codepoint": "1f3ad",
+      "category": "Activities and events",
+      "filename": "performing-arts.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ad/512.webp",
+      "tags": [
+        "performing-arts"
+      ]
+    },
+    {
+      "id": "admission-tickets",
+      "codepoint": "1f39f_fe0f",
+      "category": "Activities and events",
+      "filename": "admission-tickets.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f39f_fe0f/512.webp",
+      "tags": [
+        "admission-tickets"
+      ]
+    },
+    {
+      "id": "optical-disk",
+      "codepoint": "1f4bf",
+      "category": "Objects",
+      "filename": "optical-disk.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bf/512.webp",
+      "tags": [
+        "optical-disk"
+      ]
+    },
+    {
+      "id": "laptop-computer",
+      "codepoint": "1f4bb",
+      "category": "Objects",
+      "filename": "laptop-computer.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bb/512.webp",
+      "tags": [
+        "laptop-computer"
+      ]
+    },
+    {
+      "id": "treasure",
+      "codepoint": "1fa8e",
+      "category": "Objects",
+      "filename": "treasure.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8e/512.webp",
+      "tags": [
+        "treasure"
+      ]
+    },
+    {
+      "id": "coin",
+      "codepoint": "1fa99",
+      "category": "Objects",
+      "filename": "coin.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa99/512.webp",
+      "tags": [
+        "coin"
+      ]
+    },
+    {
+      "id": "gem-stone",
+      "codepoint": "1f48e",
+      "category": "Objects",
+      "filename": "gem-stone.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f48e/512.webp",
+      "tags": [
+        "gem-stone"
+      ]
+    },
+    {
+      "id": "balance-scale",
+      "codepoint": "2696_fe0f",
+      "category": "Objects",
+      "filename": "balance-scale.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2696_fe0f/512.webp",
+      "tags": [
+        "balance-scale"
+      ]
+    },
+    {
+      "id": "light-bulb",
+      "codepoint": "1f4a1",
+      "category": "Objects",
+      "filename": "light-bulb.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4a1/512.webp",
+      "tags": [
+        "light-bulb"
+      ]
+    },
+    {
+      "id": "broom",
+      "codepoint": "1f9f9",
+      "category": "Objects",
+      "filename": "broom.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f9f9/512.webp",
+      "tags": [
+        "broom"
+      ]
+    },
+    {
+      "id": "graduation-cap",
+      "codepoint": "1f393",
+      "category": "Objects",
+      "filename": "graduation-cap.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f393/512.webp",
+      "tags": [
+        "graduation-cap"
+      ]
+    },
+    {
+      "id": "crown",
+      "codepoint": "1f451",
+      "category": "Objects",
+      "filename": "crown.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f451/512.webp",
+      "tags": [
+        "crown"
+      ]
+    },
+    {
+      "id": "ring",
+      "codepoint": "1f48d",
+      "category": "Objects",
+      "filename": "ring.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f48d/512.webp",
+      "tags": [
+        "ring"
+      ]
+    },
+    {
+      "id": "fan",
+      "codepoint": "1faad",
+      "category": "Objects",
+      "filename": "fan.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1faad/512.webp",
+      "tags": [
+        "fan"
+      ]
+    },
+    {
+      "id": "umbrella",
+      "codepoint": "2602_fe0f",
+      "category": "Objects",
+      "filename": "umbrella.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2602_fe0f/512.webp",
+      "tags": [
+        "umbrella"
+      ]
+    },
+    {
+      "id": "shovel",
+      "codepoint": "1fa8f",
+      "category": "Objects",
+      "filename": "shovel.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1fa8f/512.webp",
+      "tags": [
+        "shovel",
+        "dig"
+      ]
+    },
+    {
+      "id": "broken-chain",
+      "codepoint": "26d3_fe0f_200d_1f4a5",
+      "category": "Objects",
+      "filename": "broken-chain.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/26d3_fe0f_200d_1f4a5/512.webp",
+      "tags": [
+        "broken-chain"
+      ]
+    },
+    {
+      "id": "linked-paperclips",
+      "codepoint": "1f587_fe0f",
+      "category": "Objects",
+      "filename": "linked-paperclips.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f587_fe0f/512.webp",
+      "tags": [
+        "linked-paperclips"
+      ]
+    },
+    {
+      "id": "scissors",
+      "codepoint": "2702_fe0f",
+      "category": "Objects",
+      "filename": "scissors.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2702_fe0f/512.webp",
+      "tags": [
+        "scissors"
+      ]
+    },
+    {
+      "id": "pencil",
+      "codepoint": "270f_fe0f",
+      "category": "Objects",
+      "filename": "pencil.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.webp",
+      "tags": [
+        "pencil"
+      ]
+    },
+    {
+      "id": "books",
+      "codepoint": "1f4da",
+      "category": "Objects",
+      "filename": "books.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4da/512.webp",
+      "tags": [
+        "books"
+      ]
+    },
+    {
+      "id": "package",
+      "codepoint": "1f4e6",
+      "category": "Objects",
+      "filename": "package.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4e6/512.webp",
+      "tags": [
+        "package"
+      ]
+    },
+    {
+      "id": "ballot-box",
+      "codepoint": "1f5f3_fe0f",
+      "category": "Objects",
+      "filename": "ballot-box.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f5f3_fe0f/512.webp",
+      "tags": [
+        "ballot-box"
+      ]
+    },
+    {
+      "id": "alarm-clock",
+      "codepoint": "23f0",
+      "category": "Objects",
+      "filename": "alarm-clock.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/23f0/512.webp",
+      "tags": [
+        "alarm-clock"
+      ]
+    },
+    {
+      "id": "hourglass-done",
+      "codepoint": "231b",
+      "category": "Objects",
+      "filename": "hourglass-done.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/231b/512.webp",
+      "tags": [
+        "hourglass-done"
+      ]
+    },
+    {
+      "id": "hourglass-not-done",
+      "codepoint": "23f3",
+      "category": "Objects",
+      "filename": "hourglass-not-done.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/23f3/512.webp",
+      "tags": [
+        "hourglass-not-done"
+      ]
+    },
+    {
+      "id": "bellhop-bell",
+      "codepoint": "1f6ce_fe0f",
+      "category": "Objects",
+      "filename": "bellhop-bell.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f6ce_fe0f/512.webp",
+      "tags": [
+        "bellhop-bell"
+      ]
+    },
+    {
+      "id": "bell",
+      "codepoint": "1f514",
+      "category": "Objects",
+      "filename": "bell.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f514/512.webp",
+      "tags": [
+        "bell"
+      ]
+    },
+    {
+      "id": "megaphone",
+      "codepoint": "1f4e3",
+      "category": "Objects",
+      "filename": "megaphone.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f4e3/512.webp",
+      "tags": [
+        "megaphone"
+      ]
+    },
+    {
+      "id": "magnifying-glass-tilted-right",
+      "codepoint": "1f50e",
+      "category": "Objects",
+      "filename": "magnifying-glass-tilted-right.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f50e/512.webp",
+      "tags": [
+        "magnifying-glass-tilted-right"
+      ]
+    },
+    {
+      "id": "crystal-ball",
+      "codepoint": "1f52e",
+      "category": "Objects",
+      "filename": "crystal-ball.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f52e/512.webp",
+      "tags": [
+        "crystal-ball"
+      ]
+    },
+    {
+      "id": "locked",
+      "codepoint": "1f512",
+      "category": "Objects",
+      "filename": "locked.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/1f512/512.webp",
+      "tags": [
+        "locked"
+      ]
+    },
+    {
+      "id": "hot-springs",
+      "codepoint": "2668_fe0f",
+      "category": "Symbols",
+      "filename": "hot-springs.webp",
+      "url": "https://fonts.gstatic.com/s/e/notoemoji/latest/2668_fe0f/512.webp",
+      "tags": [
+        "hot-springs"
+      ]
+    }
+  ]
+}

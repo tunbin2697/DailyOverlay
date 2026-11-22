@@ -11,3 +11,7 @@ data/scenarios/
 data/assets/*.webp
 data/assets/*.gif
 data/assets/*.part
+data/assets/*.png
+data/disliked_themes.json
+.env.*
+!.env.example

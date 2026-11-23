@@ -1,8 +1,12 @@
 {
   "manifest_version": 3,
   "name": "DailyOverlay Context Bridge",
-  "version": "0.2.0",
-  "description": "Gửi tọa độ thumbnail YouTube và vùng lề trống Google Docs/Notion về DailyOverlay chạy local.",
+  "version": "0.3.0",
+  "description": "Gửi tọa độ DOM ẩn danh (Zero-PII wireframe, thumbnail, lề trang) về DailyOverlay chạy local.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "DailyOverlay — Quét bố cục trang này (ẩn danh)"
+  },
   "background": {
     "service_worker": "background.js"
   },

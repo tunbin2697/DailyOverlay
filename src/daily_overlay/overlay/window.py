@@ -2,13 +2,16 @@ from __future__ import annotations
 
 import ctypes
 import time
+from typing import Callable
 
 from PySide6.QtCore import Qt, QTimer
 from PySide6.QtGui import QCursor, QGuiApplication, QPainter
 from PySide6.QtWidgets import QWidget
 
-from daily_overlay.config import IDLE_POLL_MS, TARGET_FPS
+from daily_overlay.config import IDLE_POLL_MS, TARGET_FPS, current_cycle_slot, cycle_key
+from daily_overlay.context.audio_watcher import WindowsAudioWatcher
 from daily_overlay.context.browser_bridge import BrowserBridgeServer
+from daily_overlay.context.empty_space import RealtimeEmptySpaceWatcher
 from daily_overlay.context.win32_watcher import Win32ContextWatcher, WindowContext
 from daily_overlay.overlay.engine import OverlayEngine
 
@@ -26,11 +29,18 @@ class OverlayWindow(QWidget):
         self,
         engine: OverlayEngine,
         browser_bridge: BrowserBridgeServer | None = None,
+        on_fullscreen_changed: Callable[[bool], None] | None = None,
+        on_new_day: Callable[[], None] | None = None,
     ) -> None:
         super().__init__(None)
         self.engine = engine
         self.browser_bridge = browser_bridge
+        self.on_fullscreen_changed = on_fullscreen_changed
+        self.on_new_day = on_new_day
+
         self.watcher = Win32ContextWatcher()
+        self.audio_watcher = WindowsAudioWatcher()
+        self.empty_watcher = RealtimeEmptySpaceWatcher()
 
         self.setWindowFlags(
             Qt.WindowType.FramelessWindowHint
@@ -46,6 +56,10 @@ class OverlayWindow(QWidget):
         self._sync_screen_geometry()
         self._last_frame_time = time.monotonic()
         self._last_ctx_poll = 0.0
+        self._last_audio_poll = 0.0
+        self._last_day_check = time.monotonic()
+        self._is_audio_playing = False
+        self._last_fullscreen_state = False
         self._last_ctx: WindowContext | None = None
         self._active_interval_ms = max(16, int(1000 / TARGET_FPS))
 
@@ -62,7 +76,7 @@ class OverlayWindow(QWidget):
 
     def _apply_win32_click_through(self) -> None:
         hwnd = int(self.winId())
-        self.watcher.set_own_hwnd(hwnd)
+        self.watcher.add_own_hwnd(hwnd)
         user32 = ctypes.windll.user32
         ex_style = user32.GetWindowLongW(hwnd, GWL_EXSTYLE)
         new_style = (
@@ -75,6 +89,7 @@ class OverlayWindow(QWidget):
         user32.SetWindowLongW(hwnd, GWL_EXSTYLE, new_style)
 
     def start(self) -> None:
+        self.empty_watcher.start()
         self.show()
         self._apply_win32_click_through()
         self._last_frame_time = time.monotonic()
@@ -103,10 +118,32 @@ class OverlayWindow(QWidget):
                 cursor_pos=cursor,
             )
             self._last_ctx_poll = now
+            if self._last_ctx.is_fullscreen != self._last_fullscreen_state:
+                self._last_fullscreen_state = self._last_ctx.is_fullscreen
+                if self.on_fullscreen_changed:
+                    self.on_fullscreen_changed(self._last_fullscreen_state)
+            self.empty_watcher.set_target(
+                hwnd=self._last_ctx.hwnd,
+                rect=self._last_ctx.rect,
+                is_desktop=self._last_ctx.is_desktop,
+                active=not self.engine.should_hide(self._last_ctx),
+                idle_seconds=self._last_ctx.idle_seconds,
+            )
         else:
             self._last_ctx.cursor_pos = cursor
 
+        if (now - self._last_audio_poll) >= 0.5:
+            self._is_audio_playing, _ = self.audio_watcher.poll(now)
+            self._last_audio_poll = now
+
+        if (now - self._last_day_check) >= 30.0:
+            self._last_day_check = now
+            slot_day, slot_period = current_cycle_slot()
+            if cycle_key(slot_day, slot_period) != self.engine.deck.cycle_key and self.on_new_day:
+                self.on_new_day()
+
         browser_ctx = self.browser_bridge.get_context() if self.browser_bridge else None
+        empty_space = self.empty_watcher.get_snapshot(self._last_ctx.hwnd) if self._last_ctx else None
 
         needs_paint = self.engine.update(
             dt_sec=dt_sec,
@@ -115,6 +152,8 @@ class OverlayWindow(QWidget):
             screen_h=float(geo.height()),
             avail_h=float(avail.height()),
             browser_ctx=browser_ctx,
+            is_audio_playing=self._is_audio_playing,
+            empty_space=empty_space,
         )
 
         if not needs_paint:
@@ -131,3 +170,8 @@ class OverlayWindow(QWidget):
         painter.setRenderHint(QPainter.RenderHint.Antialiasing, True)
         self.engine.paint(painter)
         painter.end()
+
+    def closeEvent(self, event) -> None:  # noqa: N802
+        self._timer.stop()
+        self.empty_watcher.stop()
+        super().closeEvent(event)

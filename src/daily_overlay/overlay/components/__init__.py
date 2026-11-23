@@ -1,39 +1,35 @@
-"""Procedural and animated WebP overlay visual components."""
+"""Pure 100% asset-driven animated WebP overlay visual components."""
 
 from daily_overlay.ai.schema import ComponentConfig, Palette
+from daily_overlay.config import MOVIE_PLAYBACK_SPEED_PCT
+from daily_overlay.overlay.components.animated_actor import AnimatedActorComponent
+from daily_overlay.overlay.components.asset_swarm import AssetSwarmComponent
 from daily_overlay.overlay.components.base import OverlayComponent
-from daily_overlay.overlay.components.boids_fish import BoidsFishComponent
-from daily_overlay.overlay.components.cat_pet import AnimatedActorComponent, CatPetComponent
-from daily_overlay.overlay.components.clouds import AmbientCloudsComponent
-from daily_overlay.overlay.components.foliage import SwayingFoliageComponent
-from daily_overlay.overlay.components.particles import FloatingParticlesComponent
-from daily_overlay.overlay.components.waves import AmbientWavesComponent
 
 
-def create_component(config: ComponentConfig, palette: Palette) -> OverlayComponent:
-    if config.type == "ambient_waves":
-        return AmbientWavesComponent(config, palette)
-    if config.type == "boids_fish":
-        return BoidsFishComponent(config, palette)
-    if config.type == "floating_particles":
-        return FloatingParticlesComponent(config, palette)
-    if config.type in ("animated_actor", "cat_pet"):
-        return AnimatedActorComponent(config, palette)
-    if config.type == "swaying_foliage":
-        return SwayingFoliageComponent(config, palette)
-    if config.type == "ambient_clouds":
-        return AmbientCloudsComponent(config, palette)
-    return FloatingParticlesComponent(config, palette)
+def create_component(
+    config: ComponentConfig,
+    palette: Palette,
+    movie_speed_pct: int = MOVIE_PLAYBACK_SPEED_PCT,
+    cameo_rest_sec: float | None = None,
+) -> OverlayComponent:
+    if config.type == "animated_actor":
+        return AnimatedActorComponent(
+            config,
+            palette,
+            movie_speed_pct=movie_speed_pct,
+            cameo_rest_sec=cameo_rest_sec,
+        )
+    return AssetSwarmComponent(
+        config,
+        palette,
+        movie_speed_pct=movie_speed_pct,
+    )
 
 
 __all__ = [
     "OverlayComponent",
-    "AmbientWavesComponent",
-    "AmbientCloudsComponent",
-    "BoidsFishComponent",
-    "FloatingParticlesComponent",
     "AnimatedActorComponent",
-    "CatPetComponent",
-    "SwayingFoliageComponent",
+    "AssetSwarmComponent",
     "create_component",
 ]

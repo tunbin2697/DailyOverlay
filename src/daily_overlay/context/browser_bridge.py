@@ -6,6 +6,7 @@ import logging
 import threading
 import time
 from dataclasses import dataclass, field
+from typing import Callable
 
 import websockets
 
@@ -23,6 +24,7 @@ class BrowserContext:
     is_scrolling: bool = False
     elements: list[ZoneRect] = field(default_factory=list)
     margins: list[ZoneRect] = field(default_factory=list)
+    wireframe: dict | None = None
     updated_at: float = 0.0
 
     def is_fresh(self, max_age: float = 6.0) -> bool:
@@ -30,21 +32,27 @@ class BrowserContext:
 
 
 class BrowserBridgeServer:
-    """Local WebSocket server receiving live DOM bounding boxes from the browser extension."""
+    """Local WebSocket server receiving live DOM bounding boxes & Zero-PII layout scans from browser extension."""
 
     def __init__(
         self,
         host: str = BROWSER_BRIDGE_HOST,
         port: int = BROWSER_BRIDGE_PORT,
+        on_layout_scan: Callable[[str, dict], None] | None = None,
     ) -> None:
         self._host = host
         self._port = port
+        self._on_layout_scan = on_layout_scan
         self._lock = threading.Lock()
         self._context = BrowserContext()
+        self._latest_scan: tuple[str, dict, float] | None = None
         self._client_count = 0
         self._thread: threading.Thread | None = None
         self._loop: asyncio.AbstractEventLoop | None = None
         self._stop_event: asyncio.Event | None = None
+
+    def set_on_layout_scan(self, cb: Callable[[str, dict], None] | None) -> None:
+        self._on_layout_scan = cb
 
     def start(self) -> None:
         if self._thread is not None and self._thread.is_alive():
@@ -65,6 +73,10 @@ class BrowserBridgeServer:
         with self._lock:
             return self._client_count
 
+    def get_latest_scan(self) -> tuple[str, dict, float] | None:
+        with self._lock:
+            return self._latest_scan
+
     def get_context(self) -> BrowserContext | None:
         with self._lock:
             if self._context.is_fresh():
@@ -75,6 +87,7 @@ class BrowserBridgeServer:
                     is_scrolling=self._context.is_scrolling,
                     elements=list(self._context.elements),
                     margins=list(self._context.margins),
+                    wireframe=self._context.wireframe,
                     updated_at=self._context.updated_at,
                 )
         return None
@@ -119,7 +132,8 @@ class BrowserBridgeServer:
                     msg = json.loads(raw)
                 except Exception:
                     continue
-                if msg.get("type") != "dom_context":
+                msg_type = msg.get("type")
+                if msg_type not in ("dom_context", "layout_scan"):
                     continue
 
                 elements = [
@@ -142,17 +156,28 @@ class BrowserBridgeServer:
                     for m in msg.get("margins", [])
                     if m.get("w", 0) >= 50 and m.get("h", 0) >= 100
                 ]
+                wireframe = msg.get("wireframe") if isinstance(msg.get("wireframe"), dict) else None
+                host = str(msg.get("host", ""))
 
                 with self._lock:
                     self._context = BrowserContext(
-                        host=str(msg.get("host", "")),
+                        host=host,
                         url=str(msg.get("url", "")),
                         title=str(msg.get("title", "")),
                         is_scrolling=bool(msg.get("is_scrolling", False)),
                         elements=elements[:16],
                         margins=margins[:4],
+                        wireframe=wireframe,
                         updated_at=time.monotonic(),
                     )
+                    if msg_type == "layout_scan" and wireframe is not None and host:
+                        self._latest_scan = (host, wireframe, time.monotonic())
+
+                if msg_type == "layout_scan" and wireframe is not None and host and self._on_layout_scan:
+                    try:
+                        self._on_layout_scan(host, wireframe)
+                    except Exception as exc:
+                        logger.warning("on_layout_scan callback failed: %s", exc)
         except Exception:
             pass
         finally:

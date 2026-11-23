@@ -362,6 +362,7 @@ dependencies = [
     { name = "pydantic" },
     { name = "pyside6" },
     { name = "python-dotenv" },
+    { name = "websockets" },
 ]
 
 [package.metadata]
@@ -371,6 +372,7 @@ requires-dist = [
     { name = "pydantic", specifier = ">=2.7.0" },
     { name = "pyside6", specifier = ">=6.7.0" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
+    { name = "websockets", specifier = ">=13.0" },
 ]
 
 [[package]]

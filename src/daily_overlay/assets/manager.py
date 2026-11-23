@@ -337,10 +337,6 @@ def _get_catalog_map() -> dict[str, AssetEntry]:
     return _catalog_cache or {}
 
 
-def ensure_manifest() -> AssetCatalog:
-    return sync_public_catalog(force=False)
-
-
 def list_local_assets() -> list[str]:
     ensure_data_dirs()
     return sorted(
@@ -348,6 +344,10 @@ def list_local_assets() -> list[str]:
         for p in ASSETS_DIR.iterdir()
         if p.is_file() and p.suffix.lower() in SUPPORTED_EXTS
     )
+
+
+def list_available_catalog_count() -> int:
+    return len(_get_catalog_map())
 
 
 def sample_catalog_for_prompt(max_items: int = 90) -> dict[str, list[str]]:

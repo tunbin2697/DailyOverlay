@@ -15,3 +15,6 @@ data/assets/*.png
 data/disliked_themes.json
 .env.*
 !.env.example
+data/app_profiles.json
+data/*.log*
+*.spec
